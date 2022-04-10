@@ -117,7 +117,7 @@ module SphereFinal(N){
 			union(){
 				translate([-total_height/3, cur_sphere_d/2+lug_ident, 0]){
 					rotate([0, 90, 0])
-					rotate_extrude(angle=360, convexity=10)
+					rotate_extrude(angle=210, convexity=10)
 					translate([total_height/3, total_height/3, 0])
 					scale([1, 2, 1])
 					circle(d = total_height/3);
